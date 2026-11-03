@@ -1,0 +1,13 @@
+id,short_name,authors_year,version,doi,url,licence,raw_images_claimed,classes_claimed,augmented_excluded,verified_by_script,notes
+D1,Sri Lankan Tea Leaf Dataset,(no date),V5,,https://data.mendeley.com/datasets/sjmy6k24d6,CC BY 4.0,1791,6,,,only Sri Lankan source
+D2,Real-Life Tea Plant Leaf Disease,Billah et al. 2025,V2,10.17632/rrff4vb35m.2,https://data.mendeley.com/datasets/rrff4vb35m/2,CC BY 4.0,967,,,,
+D3,tea sickness dataset,Kimutai and Forster 2022,V2,10.17632/j32xdt2ff5.2,https://data.mendeley.com/datasets/j32xdt2ff5/2,CC BY 4.0,,,,,>100 per class
+D4,TeaLeafDiseaseBD,Munna et al. 2026,V3,10.17632/jcvxm4gh7d.3,https://data.mendeley.com/datasets/jcvxm4gh7d,CC BY 4.0,13085,,,,
+D5,Tea Leaf Diseases Dataset,Khan et al. 2024,V1,10.17632/mkzyfj8bkj.1,https://data.mendeley.com/datasets/mkzyfj8bkj/1,CC BY 4.0,4009,,yes,,raw only; exclude augmented
+D6,Advanced Tea Crop Disease Study,Ahmad 2024,V4,10.17632/tt2smzrzrs.4,https://data.mendeley.com/datasets/tt2smzrzrs/4,CC BY 4.0,3960,,yes,,exclude augmented
+D7,AI-Powered Plant Pathology,Shaha et al. 2024,V1,10.17632/zn9d3pk59r.1,https://data.mendeley.com/datasets/zn9d3pk59r,CC BY 4.0,3900,,yes,,exclude augmented
+D8,Tea leaf disease Dataset,Islam 2025,V1,10.17632/mz598gxfw9.1,https://data.mendeley.com/datasets/mz598gxfw9,CC BY 4.0,,,,,licence confirmed by author of this repo
+D9,Tea Leaf Disease Image Dataset,Chowdhury and Arman 2025,V1,10.17632/3x42rbj8yv.1,https://data.mendeley.com/datasets/3x42rbj8yv/1,CC BY 4.0,2500,,,,
+D10,TLD-BD,Ahmad and Ahmed 2025,V2,10.17632/d2xybhfw59.2,https://data.mendeley.com/datasets/d2xybhfw59/2,CC BY 4.0,2007,,,,
+D11,K-Kotagiri Tea Leaf Dataset,Rajasekaran et al. 2024,V1,10.17632/68yy284sh9.1,https://data.mendeley.com/datasets/68yy284sh9/1,CC BY 4.0,528,,yes,,exclude augmented
+D12,Tea Leaf Dataset (CS-D),Gupta 2025,V1,10.17632/94fzcdz8gz.1,https://data.mendeley.com/datasets/94fzcdz8gz/1,CC BY 4.0,,,,,licence confirmed by author of this repo

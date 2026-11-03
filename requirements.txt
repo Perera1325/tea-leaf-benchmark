@@ -1,0 +1,9 @@
+# Pinned for Python 3.10-3.13 (TensorFlow does not support 3.14 yet)
+numpy
+pandas
+pillow
+imagehash
+scikit-learn
+pytest
+# Training / export (installed on Kaggle or laptop when needed):
+# tensorflow==2.21.0
