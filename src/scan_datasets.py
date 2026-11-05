@@ -32,7 +32,7 @@ def exclude_reason(below):
     name = Path(below[-1]).stem.lower()
     if any("aug" in x for x in folders) or "aug" in name:
         return "augmented"
-       if any("annotat" in x for x in folders):
+    if any("annotat" in x for x in folders):
         return "annotated"
     if "pipeline" in name or "folder_structure" in name or "folder structure" in name:
         return "diagram"
