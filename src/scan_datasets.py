@@ -10,7 +10,8 @@ dataset = the dataset folder (e.g. tea-d9); label = the image's parent folder.
 
 Images that are NOT original are flagged is_augmented=True with an exclude_reason
 and are removed later (original images only): folder/file names containing
-'aug' (augmented) or 'annotat' (annotated copies, e.g. D4 'Annotated data').
+'aug' (augmented), 'annotat' (annotated copies, e.g. D4) or 'compress'
+(compressed duplicates, e.g. D10 'Tea Compressed Data').
 macOS junk (__MACOSX, ._files) is skipped entirely.
 """
 import argparse
@@ -34,6 +35,8 @@ def exclude_reason(below):
         return "augmented"
     if any("annotat" in x for x in folders):
         return "annotated"
+    if any("compress" in x for x in folders):
+        return "compressed"
     if "pipeline" in name or "folder_structure" in name or "folder structure" in name:
         return "diagram"
     return ""
